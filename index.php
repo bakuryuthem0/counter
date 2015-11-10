@@ -1,4 +1,5 @@
 <?php 
+	date_default_timezone_set('America/La_Paz');
 	$time = strtotime('27 November 2015');
 	$now  = time();
 	$dif  = $time-$now;
