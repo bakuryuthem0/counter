@@ -18,9 +18,9 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>	Kite Coming Soon HTML Template</title>
-	<meta name="description" content="Kite Coming Soon HTML Template by Jewel Theme" >
-	<meta name="author" content="Jewel Theme">
+	<title>Pasillo24.com</title>
+	<meta name="description" content="Proximamente el E-commerce mas accesible de Bolivia" >
+	<meta name="author" content="tecnographic">
 
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
