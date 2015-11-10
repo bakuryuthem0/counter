@@ -44,6 +44,18 @@
 		{
 			height: 100vh;
 		}
+		@media (max-width : 767px){
+			.section-style
+			{
+				background-image: none !important;
+				background-color: #12401B;
+				height: auto !important;
+			}
+			.text-conteiner
+			{
+				text-align: center;
+			}
+		}
 	</style>
 </head>
 <body>
@@ -72,6 +84,21 @@
 	<!-- Page Top Section -->
 	<section id="page-top" class="section-style" data-background-image="images/background/portada-01.jpg">
 		<div class="height-resize">
+			<div class="text-conteiner row visible-xs">
+				<div class="col-xs-12 greenband">
+					<h1>TAN PODEROSO COMO SE VE</h1>
+					<p>Gran lanzamiento del E-commerce más avanzado de Bolivia, cuenta con la tecnología Seo, mayor rapidez de búsqueda donde compras y vendes artículos Vía Online.</p>
+					<h3>WWW.PASILLO24.COM</h3>
+				</div>
+				<div class="col-xs-12 blackband">
+					<div class="col-xs-12"><i class="fa fa-facebook"></i> pasillo24</div>
+					<div class="col-xs-12"><i class="fa fa-instagram"></i> @pasillo24</div>
+					<div class="col-xs-12"><i class="fa fa-twitter"></i> @pasillo_24</div>
+				</div>
+				<div class="col-xs-12 redband">
+					<h3>¡PRÓXIMAMENTE!</h3>
+				</div>
+			</div>
 			<div class="container">
 				<div id="time_countdown" class="time-count-container">
 
@@ -126,6 +153,7 @@
 					</div>
 					
 				</div><!-- /.time-count-container -->
+				
 			</div><!-- /.container -->
 		</div><!-- /.pattern -->		
 	</section><!-- /#page-top -->
