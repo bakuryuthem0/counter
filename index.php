@@ -55,6 +55,39 @@
 			{
 				text-align: center;
 			}
+			.greenband
+			{
+				background-color: #16623B;
+			}
+			.blackband
+			{
+				background-color: #000;
+			}
+			.redband{
+				background-color: #E84B14;
+			}
+			.time-box,.time-box-inner
+			{
+				width: 100px;
+				height: 100px;
+			}
+			.time-box-inner
+			{
+				padding-top: 17%;
+			}
+			.time-number
+			{
+				font-size: 20px;
+				padding: 0;
+			}
+			.time-number .digit
+			{
+				line-height: 20px;
+			}
+			.time-name
+			{
+				font-size: 20px;
+			}
 		}
 	</style>
 </head>
@@ -84,25 +117,11 @@
 	<!-- Page Top Section -->
 	<section id="page-top" class="section-style" data-background-image="images/background/portada-01.jpg">
 		<div class="height-resize">
-			<div class="text-conteiner row visible-xs">
-				<div class="col-xs-12 greenband">
-					<h1>TAN PODEROSO COMO SE VE</h1>
-					<p>Gran lanzamiento del E-commerce más avanzado de Bolivia, cuenta con la tecnología Seo, mayor rapidez de búsqueda donde compras y vendes artículos Vía Online.</p>
-					<h3>WWW.PASILLO24.COM</h3>
-				</div>
-				<div class="col-xs-12 blackband">
-					<div class="col-xs-12"><i class="fa fa-facebook"></i> pasillo24</div>
-					<div class="col-xs-12"><i class="fa fa-instagram"></i> @pasillo24</div>
-					<div class="col-xs-12"><i class="fa fa-twitter"></i> @pasillo_24</div>
-				</div>
-				<div class="col-xs-12 redband">
-					<h3>¡PRÓXIMAMENTE!</h3>
-				</div>
-			</div>
+			
 			<div class="container">
 				<div id="time_countdown" class="time-count-container">
 
-					<div class="col-sm-3">
+					<div class="col-xs-6 col-sm-3">
 						<div class="time-box">
 							<div class="time-box-inner dash days_dash animated" data-animation="rollIn" data-animation-delay="300">
 								<span class="time-number">
@@ -115,7 +134,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-3">
+					<div class="col-xs-6 col-sm-3">
 						<div class="time-box">
 							<div class="time-box-inner dash hours_dash animated" data-animation="rollIn" data-animation-delay="600">
 								<span class="time-number">
@@ -127,7 +146,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-3">
+					<div class="col-xs-6 col-sm-3">
 						<div class="time-box">
 							<div class="time-box-inner dash minutes_dash animated" data-animation="rollIn" data-animation-delay="900">
 								<span class="time-number">
@@ -139,7 +158,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-3">
+					<div class="col-xs-6 col-sm-3">
 						<div class="time-box">
 							<div class="time-box-inner dash seconds_dash animated" data-animation="rollIn" data-animation-delay="1200">
 								<span class="time-number">
@@ -153,7 +172,21 @@
 					</div>
 					
 				</div><!-- /.time-count-container -->
-				
+				<div class="text-conteiner row visible-xs">
+					<div class="col-xs-12 greenband">
+						<h1>TAN PODEROSO COMO SE VE</h1>
+						<p>Gran lanzamiento del E-commerce más avanzado de Bolivia, cuenta con la tecnología Seo, mayor rapidez de búsqueda donde compras y vendes artículos Vía Online.</p>
+						<h3>WWW.PASILLO24.COM</h3>
+					</div>
+					<div class="col-xs-12 blackband">
+						<div class="col-xs-12"><i class="fa fa-facebook"></i> pasillo24</div>
+						<div class="col-xs-12"><i class="fa fa-instagram"></i> @pasillo24</div>
+						<div class="col-xs-12"><i class="fa fa-twitter"></i> @pasillo_24</div>
+					</div>
+					<div class="col-xs-12 redband">
+						<h3>¡PRÓXIMAMENTE!</h3>
+					</div>
+				</div>
 			</div><!-- /.container -->
 		</div><!-- /.pattern -->		
 	</section><!-- /#page-top -->
