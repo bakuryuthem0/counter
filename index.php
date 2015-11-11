@@ -40,14 +40,20 @@
 	<script src="assets/js/html5shiv.js"></script>
 	<![endif]-->
 	<style type="text/css">
+		body
+		{
+			background-color: #333;
+		}
 		.section-style
 		{
 			height: 100vh;
+			background-size: auto 100%;
 		}
 		@media (max-width : 767px){
 			.section-style
 			{
 				background-image: none !important;
+
 				background-color: #12401B;
 				height: auto !important;
 			}
