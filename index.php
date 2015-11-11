@@ -87,6 +87,8 @@
 			.time-name
 			{
 				font-size: 20px;
+				display: block !important;
+				visibility: visible !important;
 			}
 		}
 	</style>
